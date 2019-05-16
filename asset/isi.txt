@@ -1,0 +1,20 @@
+logo (fitness_beginner.jpg)
+
+Level : Beginner
+
+Program ini khusus bagi pemula dalam melakukan latihan kebugaran. 
+
+
+-Location (logo loc_logo.png) 
+
+Pencarian Lokasi Pusat Kebugaran terdekat.
+
+
+-Training (logo logo_TA.png)
+
+Mulai Latihan kebugaran.
+
+
+- Result (result_logo.png)
+
+Melihat hasil latihan kebugaran.

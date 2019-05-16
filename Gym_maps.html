@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <meta name="robots" content="all,follow">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/maps.css">
+
+    <!-- Image and text -->
+    <style>
+        .zoom {zoom: 70%;}
+    </style>
+
+    <body class="text-center">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="asset/logo_TA.png" width="30" height="30" class="d-inline-block align-top" alt=""> SIG GYM
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Gym_maps.html">Location</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Training.html">Training</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Result.html">Result</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid zoom">
+            <div class="row">
+                <div class="col-sm-12 col-lg-8">
+                    <!-- JUMBOTRON -->
+                    <h4 style="margin-top: 25px; margin-bottom: 25px;"><strong>GMAPS</strong></h4>
+                    <!-- JUMBOTRON AKHIR -->
+                    <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.60912431426!2d107.57311648982727!3d-6.903273916896009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C+Bandung+City%2C+West+Java!5e0!3m2!1sen!2sid!4v1553347117192" width="1000" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-12">
+                            <!-- JUMBOTRON -->
+                            <h4 style="margin-top: 25px; margin-bottom: 25px;"><strong>GYM NEARBY</strong></h4>
+                            <!-- JUMBOTRON AKHIR -->
+                            <table id="example" class="table table-striped table-bordered" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>Nomer</th>
+                                        <th>Gym Notif</th>
+                                        <th>Distance</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>System Architect</td>
+                                        <td>Edinburgh</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Accountant</td>
+                                        <td>Tokyo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-sm-12 col-lg-12">
+                            <!-- JUMBOTRON -->
+                            <h4 style="margin-top: 25px; margin-bottom: 25px;"><strong>GYM INFORMATION</strong></h4>
+                            <!-- JUMBOTRON AKHIR -->
+                            <form>
+                                <div class="form-group row">
+                                    <label for="inputPassword" class="col-sm-2 col-form-label">Gym Name</label>
+                                    <div class="col-sm-10">
+                                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">This is a dark list group item</a>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="inputPassword" class="col-sm-2 col-form-label">Address</label>
+                                    <div class="col-sm-10">
+                                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">This is a dark list group item</a>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="inputPassword" class="col-sm-2 col-form-label">Contact</label>
+                                    <div class="col-sm-10">
+                                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">This is a dark list group item</a>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="inputPassword" class="col-sm-2 col-form-label">Latitude</label>
+                                    <div class="col-sm-10">
+                                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">This is a dark list group item</a>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="inputPassword" class="col-sm-2 col-form-label">Longitude</label>
+                                    <div class="col-sm-10">
+                                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">This is a dark list group item</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable();
+        });
+    </script>
+    <!-- Datatable -->
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+
+</html>

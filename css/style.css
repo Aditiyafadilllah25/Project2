@@ -1,0 +1,127 @@
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+/*
+ * Cover
+ */
+ .cover {
+    padding: 0 1.5rem;
+  }
+  .cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 100;
+  }
+  /* Working Space */
+.workingspace {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.workingspace h3 {
+  font-size: 52px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.workingspace h3 span {
+  font-weight: 500;
+}
+
+.workingspace p {
+  font-size: 18px;
+  color: #acacaa;
+  font-weight: 200;
+  margin: 30px 0;
+}
+
+/* Jumbotron */
+
+.container {
+  z-index: 1;
+  position: relative;
+}
+
+
+.display-4 {
+  margin-top: 50px;
+  font-weight: 200;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.display-4 span {
+  font-weight: 500;
+}
+
+.display-3 {
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 35px;
+  margin-bottom: 40px;
+  margin-block-end: 100px;
+}
+
+.display-3 span {
+  font-weight: 500;
+}
+
+
+/* DESKTOP Version*/
+@media (min-width: 992px) {
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+/*
+ * Cover
+ */
+ .cover {
+    padding: 0 1.5rem;
+  }
+  .cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 100;
+  }
+
+  .display-4 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .display-3 {
+    margin-top: 50px;
+    font-weight: 200;
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+}
+/* Desktop */
+@media (min-width: 576px) {
+  #gayague{
+    visibility: visible;
+  }
+  #gayague2{
+    visibility: hidden;
+  }
+}
+/* Mobile */
+@media (max-width: 575px) {
+  #gayague{
+    visibility: hidden;
+  }
+  #gayague2{
+    visibility: visible;
+  }
+  #min-top{
+    margin-top: -180px;
+  }
+
+  .display-4 {
+    font-size: 30px;
+    font-weight: normal;
+  }
+  
+}
